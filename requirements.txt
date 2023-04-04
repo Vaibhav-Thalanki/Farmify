@@ -1,5 +1,4 @@
 gunicorn
-os
 flask
 pickle
 scikit-learn
