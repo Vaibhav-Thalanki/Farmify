@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, url_for, redirect
 import pickle
 
 app = Flask(__name__)
-mymodel = pickle.load(open("D:/vai - temporary/farmify_tarp/Flask/RandomForest.pkl", "rb"))  # load model
+mymodel = pickle.load(open("./RandomForest.pkl", "rb"))  # load model
 
 
 @app.route('/')  # url binding
